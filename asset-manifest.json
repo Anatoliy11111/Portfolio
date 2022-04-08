@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f83ae76b.css",
+    "main.js": "/portfolio/static/js/main.1b09feb5.js",
+    "static/js/787.370794a7.chunk.js": "/portfolio/static/js/787.370794a7.chunk.js",
+    "static/media/MyFoto.jpg": "/portfolio/static/media/MyFoto.b5ea6755876a0487b9d2.jpg",
+    "static/media/storybook.png": "/portfolio/static/media/storybook.672f13fde525783eccaf.png",
+    "static/media/vk.png": "/portfolio/static/media/vk.0c54190a5b284e4a1aed.png",
+    "static/media/Redux.png": "/portfolio/static/media/Redux.ba7d4c3cf8f89de233aa.png",
+    "static/media/social_networking_design_people_and_symbols_in_circle_6826491.jpg": "/portfolio/static/media/social_networking_design_people_and_symbols_in_circle_6826491.1793a0f87f8cab3b7576.jpg",
+    "static/media/tg.png": "/portfolio/static/media/tg.40853133360a7af80011.png",
+    "static/media/card.jpg": "/portfolio/static/media/card.6bf2151934bf0e7f06c6.jpg",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.2e10b2a247e94504d12c.png",
+    "static/media/css.png": "/portfolio/static/media/css.a29c8f75ceafbb7110f5.png",
+    "static/media/react.jpg": "/portfolio/static/media/react.0b61784fae2639fc6382.jpg",
+    "static/media/processed-svg-illus-usage-policies1.svg": "/portfolio/static/media/processed-svg-illus-usage-policies1.42a3a59d362f6af365c2b55209f07ad5.svg",
+    "index.html": "/portfolio/index.html",
+    "main.f83ae76b.css.map": "/portfolio/static/css/main.f83ae76b.css.map",
+    "main.1b09feb5.js.map": "/portfolio/static/js/main.1b09feb5.js.map",
+    "787.370794a7.chunk.js.map": "/portfolio/static/js/787.370794a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f83ae76b.css",
+    "static/js/main.1b09feb5.js"
+  ]
+}
