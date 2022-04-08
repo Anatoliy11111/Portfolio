@@ -1,0 +1,26 @@
+.skillsBlock {
+    background-color: #0c0b0a;
+    padding: 50px 0;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (min-width: 937px) {
+    .skills {
+        justify-content: space-between;
+
+    }
+
+
+}

@@ -1,0 +1,13 @@
+.header {
+    background-color: #1d1b19;
+    opacity: 0.9;
+    left: 0;
+    z-index: 999;
+    position: fixed;
+    right: 0;
+    height: 80px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

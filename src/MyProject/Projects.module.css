@@ -1,0 +1,31 @@
+.projects {
+    display: flex;
+    align-items: start;
+}
+
+.containerProject {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.myProject {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (min-width: 1125px) {
+    .myProject {
+        justify-content: space-around;
+
+    }
+
+
+}

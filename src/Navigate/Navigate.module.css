@@ -1,0 +1,13 @@
+.navigate {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.active {
+    color: #f44647;
+}

@@ -1,0 +1,78 @@
+@import '/src/Common/Style/sass/variables';
+
+.project {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: $mainBackColor;
+  margin-bottom: 10px;
+  @media screen and (max-width: 460px) {
+    width: 300px;
+
+  }
+  .image {
+    background-size: cover;
+    background-position: center;
+    background-color: #b2b3b7;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+
+    .containerLink {
+      width: 120px;
+      background-color: #181715;
+      opacity: 0.7;
+      display: flex;
+      justify-content: center;
+      font-family: 'Jost', sans-serif;
+      font-size: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .containerLink:hover {
+      opacity: 0.9;
+
+      a {
+        color: #987750;
+      }
+    }
+  }
+
+  .projectInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px 20px;
+
+
+    .title {
+      margin: 5px 0 12px 0;
+      padding: 0;
+      font-weight: 400;
+      font-family: 'Poppins', sans-serif;
+      color: $TitleColor;
+    }
+
+    .description {
+      color: $textColor;
+      font-family: 'Jost', sans-serif;
+      font-size: 14px;
+    }
+  }
+}
+
+

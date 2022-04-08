@@ -1,0 +1,31 @@
+.footer{
+
+    background-color: #0c0b0a;
+    padding: 50px 0;
+}
+
+
+.footerContainer {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Icons {
+    display: flex;
+  justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
