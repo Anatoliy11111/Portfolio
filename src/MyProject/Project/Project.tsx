@@ -2,10 +2,10 @@ import React from 'react';
 import style from './Project.module.scss'
 
 type ProjectPropsType = {
-    title?: string
+    title: string
     description?: string
     styles: { backgroundImage: string }
-    link?:string
+    link:string
 }
 
 
@@ -16,7 +16,7 @@ export const Project = ({title, description, styles, link}: ProjectPropsType) =>
         <div className={style.project}>
             <div className={style.image} style={styles}>
                 <div className={style.containerLink}>
-                    <a href={link}>Start</a>
+                    <a target="_blank" href={link}>Start</a>
                 </div>
 
             </div>

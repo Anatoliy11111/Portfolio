@@ -7,6 +7,7 @@ import socialNetworks from "../assets/image/social_networking_design_people_and_
 import cardImage from "../assets/image/card.jpg";
 import {Flip, Slide} from "react-awesome-reveal";
 
+
 export const Projects = () => {
     const socialNetwork = {
         backgroundImage: `url(${socialNetworks})`
@@ -17,6 +18,26 @@ export const Projects = () => {
     const card = {
         backgroundImage: `url(${cardImage})`
     }
+    const myProjects = [
+        {
+            title: 'Social Network',
+            description: 'Проект социальная сеть',
+            styles: socialNetwork,
+            link: "https://Anatoliy11111.github.io/social-Network"
+        },
+        {
+            title: 'TodoList',
+            description: 'Проект todolist дает возможность записывать и сохранять те или иные вещи которые не хочется держать в голове, регистрируйся и используй',
+            styles: todoList,
+            link: "https://Anatoliy11111.github.io/TodoList"
+        },
+        {
+            title: 'Learn on card',
+            description: 'Изучение по карточкам, проект содержит в себе стандартное логинизационное флоу и возможность изучать что либо повторяя это в любом месте',
+            styles: card,
+            link: "https://Anatoliy11111.github.io/lerning-card"
+        },
+    ]
 
 
     return (
@@ -29,10 +50,16 @@ export const Projects = () => {
                 </div>
 
                 <div className={style.myProject}>
-                    <Slide direction={'left'}  delay={200}>
-                        <Project title={'Соц.Сеть'} description={'Проект в разработке'} styles={socialNetwork}/>
-                        <Project title={'TodoList'} description={'Проект todolist дает возможность записывать и сохранять те или иные вещи которые не хочется держать в голове, регистрируйся и используй'} styles={todoList} link={'https://Anatoliy11111.github.io/TodoList'}/>
-                        <Project title={'Learn on card'} description={'Изучение по карточкам, проект содержит в себе стандартное логинизационное флоу и возможность изучать что либо повторяя это в любом месте'} styles={card} link={'https://Anatoliy11111.github.io/CardProject'}/>
+                    <Slide direction={'left'} delay={200}>
+                        {myProjects.map((project) => {
+                                return (
+                                    <Project key={project.title} styles={project.styles} link={project.link}
+                                             description={project.description}
+                                             title={project.title}
+                                    />)
+                            }
+                        )
+                        }
                     </Slide>
                 </div>
             </div>
